@@ -1,0 +1,55 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*service*account*.json
+*firebase-adminsdk*.json
+credentials*.json
+secrets.*
+.pypirc
+.netrc
+
+# Python environments and generated output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+out/
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep code/configuration, not footage or generated screenshots.
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+*.[mM]4[vV]
+*.[wW][mM][vV]
+*.[fF][lL][vV]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+*screenshots*/
+
+# Downloaded model weights exceed GitHub's regular-file size limit.
+/cfg/*.weights
+
+# Local credentials and authentication/debug logs.
+secret.json
+secrets.json
+*.credentials.json
+.pypirc
+.netrc
